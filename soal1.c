@@ -1,3 +1,10 @@
+/** EL2008 Praktikum Pemecahan Masalah dengan Pemrograman 2025/2026 * Modul : 4 - Dynamic structure
+* Percobaan : praktikum
+* Hari dan Tanggal : Rabu, 6 May 2026 
+* Nama File : soal1.c 
+* Pembuat : Mhd. Khalil Alfaiz H
+* Deskripsi : Menghitung jeda waktu pasien */ 
+
 #include <stdio.h>
 
 int main() {
