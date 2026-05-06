@@ -19,6 +19,7 @@ int main() {
     for (int i = 0; i < N; i++) {
         printf(" %s", id[i]);
     }
+    printf("\n");
     int totaltunggu = 0;
     int sekarang = 0; 
     for (int i = 0; i < N; i++) {
@@ -31,3 +32,5 @@ int main() {
     
     return 0;
 }
+
+
