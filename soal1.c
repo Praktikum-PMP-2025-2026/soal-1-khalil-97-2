@@ -19,15 +19,15 @@ int main() {
     for (int i = 0; i < N; i++) {
         printf(" %s", id[i]);
     }
-  
+    int totaltunggu = 0;
     int sekarang = 0; 
     for (int i = 0; i < N; i++) {
        
-
+        totaltunggu += sekarang;
         sekarang += durasi[i];
     }
     
-    printf("WAIT %d\n", sekarang);
+    printf("WAIT %d\n", totaltunggu);
     
     return 0;
 }
